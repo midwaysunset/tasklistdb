@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Редактировать задачу{% endblock %}
+{% block content %}
+<h2>Редактировать задачу</h2>
+<form method="POST">
+    <input type="text" name="content" class="form-control mb-2" value="{{ task.content }}" required>
+    <button type="submit" class="btn btn-success">Сохранить</button>
+    <a href="/" class="btn btn-secondary">Отмена</a>
+</form>
+{% endblock %}

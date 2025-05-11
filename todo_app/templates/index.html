@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Задачи{% endblock %}
+{% block content %}
+<h1>Привет, {{ current_user.username }}!</h1>
+<a href="/logout" class="btn btn-secondary mb-3">Выйти</a>
+
+<form method="POST" class="mb-3">
+    <input type="text" name="content" class="form-control" placeholder="Новая задача" required>
+    <button type="submit" class="btn btn-primary mt-2">Добавить</button>
+</form>
+
+<ul class="list-group">
+    {% for task in tasks %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        {{ task.content }}
+        <span>
+            <a href="/edit/{{ task.id }}" class="btn btn-sm btn-outline-secondary">Редактировать</a>
+            <a href="/delete/{{ task.id }}" class="btn btn-sm btn-outline-danger">Удалить</a>
+        </span>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
