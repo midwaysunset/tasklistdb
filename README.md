@@ -78,7 +78,7 @@ Werkzeug==2.3.7
 pip install -r requirements.txt
 ```
 
-## 📝 Лицензия
+##  Лицензия
 
 MIT License
 
