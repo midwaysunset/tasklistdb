@@ -25,3 +25,16 @@
    ```bash
    git clone https://github.com/yourusername/todo-app.git
    cd todo-app
+2. Установите зависимости:
+
+pip install -r requirements.txt
+
+3. Запустите приложение
+
+python app.py
+
+4. Перейдите в браузере по адресу http://localhost:5000
+
+
+
+
