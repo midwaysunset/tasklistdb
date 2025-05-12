@@ -41,23 +41,6 @@
 
 4. Перейдите в браузере по адресу [http://localhost:5000](http://localhost:5000)
 
-##  Структура проекта
-
-```
-todo_app/
-│
-├── app.py               # основной Flask-приложение
-├── models.py            # модели SQLAlchemy
-├── templates/           # HTML-шаблоны
-│   ├── index.html
-│   ├── login.html
-│   └── register.html
-├── static/
-│   └── styles.css       # стили CSS
-├── todo.db              # SQLite база данных (создаётся автоматически)
-└── README.md            # этот файл
-```
-
 ##  Учетные данные
 
 При первом запуске создайте нового пользователя на странице регистрации.
