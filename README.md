@@ -24,38 +24,18 @@
 
    ```bash
    git clone https://github.com/yourusername/todo-app.git
-   cd todo-app
    ```
 
-2. Установите зависимости:
+2. Запустите приложение:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+dist/TodoApp.exe
 
-3. Запустите приложение:
-
-   ```bash
-   python app.py
-   ```
-
-4. Перейдите в браузере по адресу [http://localhost:5000](http://localhost:5000)
+3. Перейдите в браузере по адресу [http://localhost:5000](http://localhost:5000)
 
 ##  Учетные данные
 
 При первом запуске создайте нового пользователя на странице регистрации.
 
-##  Зависимости
-
-Установите их:
-
-```bash
-pip install -r requirements.txt
-```
-
 ##  Лицензия
 
 MIT License
-
-
-
