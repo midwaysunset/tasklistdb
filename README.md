@@ -64,14 +64,6 @@ todo_app/
 
 ##  Зависимости
 
-Создайте файл `requirements.txt`:
-
-```
-Flask==2.3.2
-Flask-SQLAlchemy==3.1.1
-Werkzeug==2.3.7
-```
-
 Установите их:
 
 ```bash
